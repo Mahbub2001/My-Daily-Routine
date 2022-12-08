@@ -1,0 +1,16 @@
+.activities-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+}
+@media screen and (max-width:990px) {
+    .activities-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:480px) {
+    .activities-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

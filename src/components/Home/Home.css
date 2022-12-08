@@ -1,0 +1,38 @@
+
+.container-home{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+}
+.div-1{
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+.management-div{
+    background-color: white;
+}
+@media screen and (max-width:990px) {
+    
+    .container-home{
+        grid-template-columns: 1fr;
+    }
+    .div-1{
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+    .div-1{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:580px) {
+    .div-1{
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+    .container-home{
+        grid-template-columns: 1fr;
+    }
+    .div-1{
+        margin-left: 1rem;
+    }
+}

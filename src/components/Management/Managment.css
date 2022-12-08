@@ -1,0 +1,54 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.profile-image{
+    width: 20%;
+    height: 20%;
+}
+.time-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    padding: 30px;
+    border-radius: 10px;
+}
+ .time-table button{
+    border: none;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.time-table button:hover{
+    border: 1px solid blue;
+}
+.time-table button:focus{
+    background-color: green;
+    color: white;
+}
+.study{
+    background-color: azure;
+    padding: 20px;
+    padding-bottom: 35px;
+}
+.study input{
+    border: none;
+    background-color: azure
+    ;
+    outline: none;
+}
+.complete-btn button{
+    border: 1px solid blue;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.complete-btn button:hover{
+    background-color: green;
+    color: white;
+    border: none;
+}
